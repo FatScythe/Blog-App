@@ -13,13 +13,39 @@ import BlogList from "./BlogList";
         return (
             <div className="content">
                 <BlogList blogs = { blogs }  title = "React Die"/>
+                {/* {
+                    blogs.map((blog) => (
+                        <div className="blog-wrapper" key={ blog.id }>
+                            <h2>{ blog.title }</h2>
+                            <p>Written by: { blog.author } </p>
+                        </div>
+                        ))
+                } */}
             </div>
         );
     }   
  
 export default Home;
 
- // let name = 'Fahm';
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let name = 'Fahm';
         // let age = 22;
 
         // const [name, setName ] = useState('Fahm');
