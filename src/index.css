@@ -19,8 +19,14 @@ body {
   color: #f1356d;
 }
 
+.navbar h1 a {
+  color: #f1356d;
+  text-decoration: none;
+}
+
 .links {
   list-style: none;
+  
 }
 
 .links li {
