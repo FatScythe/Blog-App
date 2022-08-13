@@ -1,19 +1,31 @@
-> ## Scythe Blog App
+>## Scythe Blog App
 
 
-#### Link to the live website:
->[Blogapp](https://devscytheblogapp.netlify.app/ "taskapp live site")
+<!-- #### Link to the live website:
+[Blogapp](https://devscytheblogapp.netlify.app/ "blogapp live site") -->
 ___
+
+## Getting Started with Create React App
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+### Watching the local JSON database
+>To Access the Locale Database:
+
+#### Open a new terminal and input
+### `npx json-server --watch data/db.json --port 8000` 
 
 #### Description 
 >Scythe Blog App is a web app made with React for reading, posting and deleting blog posts. 
 ____
 
 #### Tech Used:
- >React, git, github, Netlify.
+React, git, github, Netlify.
 ___
 
-> #### Things i have learnt : how to filter through an Array to get certain keyword
+> #### Things i have learnt
 ```JavaScript
 // How to make component, use Hooks, make custom hooks, make json request and so on...
 import Navbar from './Navbar';
@@ -112,11 +124,3 @@ export default useFetch;
 > #### Credits: 
 NetNinja
 Scythe
-# Getting Started with Create React App
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-
-
